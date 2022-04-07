@@ -1,8 +1,10 @@
+import multer from "multer"
+
 export const badRequestErrorHandler = (err, req, res, next) => {
   // if I am responsible of the error I will send the response
   // otherwise next(err)
-  console.log("ERR ", err)
-  if (err.status === 400) {
+  // console.log("ERR ", err)
+  if (err.status === 400 || err instanceof multer.MulterError) {
     res.status(400).send({ message: err.message, errorsList: err.errorsList })
   } else {
     next(err)

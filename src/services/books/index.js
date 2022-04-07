@@ -40,13 +40,12 @@ booksRouter.post("/", checkBookSchema, checkValidationResult, async (req, res, n
 booksRouter.get("/", async (req, res, next) => {
   try {
     const books = await getBooks()
-    const users = await getUsers()
     console.log(users)
     if (req.query && req.query.category) {
       const filteredBooks = books.filter(book => book.category === req.query.category)
       res.send(filteredBooks)
     } else {
-      res.send({ books, users })
+      res.send(books)
     }
   } catch (error) {
     next(error)

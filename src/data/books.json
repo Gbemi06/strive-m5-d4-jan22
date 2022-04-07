@@ -1,1 +1,14 @@
-[{"title":"IT","category":"horror","createdAt":"2022-04-06T08:10:56.129Z","id":"3kgg88l1najhtu"},{"title":"blabla","createdAt":"2022-04-06T10:46:13.255Z","id":"3kgi1wl1ng36yw"},{"category":"fantasy","title":"whihqiwuehqi","createdAt":"2022-04-06T10:52:39.759Z","id":"3kg7kl1ngbh74"},{"category":"fantasy","title":"aoshdiuasd","createdAt":"2022-04-06T10:56:26.759Z","id":"3kg9v4l1nggcco"},{"category":"fantasy","title":"fasdadsadsad","email":"email@gmail.com","createdAt":"2022-04-07T07:37:13.500Z","id":"3kgkjwl1oorztq"},{"category":"fantasy","title":"fasdadsadsad","email":"email@gmail.com","createdAt":"2022-04-07T08:46:48.592Z","id":"3kgct0l1or9hch"}]
+[
+  {
+    "title": "IT",
+    "category": "horror",
+    "createdAt": "2022-04-06T08:10:56.129Z",
+    "cover": "http://localhost:3001/img/users/magic.gif",
+    "id": "3kgg88l1najhtu"
+  },
+  { "title": "blabla", "createdAt": "2022-04-06T10:46:13.255Z", "id": "3kgi1wl1ng36yw" },
+  { "category": "fantasy", "title": "whihqiwuehqi", "createdAt": "2022-04-06T10:52:39.759Z", "id": "3kg7kl1ngbh74" },
+  { "category": "fantasy", "title": "aoshdiuasd", "createdAt": "2022-04-06T10:56:26.759Z", "id": "3kg9v4l1nggcco" },
+  { "category": "fantasy", "title": "fasdadsadsad", "email": "email@gmail.com", "createdAt": "2022-04-07T07:37:13.500Z", "id": "3kgkjwl1oorztq" },
+  { "category": "fantasy", "title": "fasdadsadsad", "email": "email@gmail.com", "createdAt": "2022-04-07T08:46:48.592Z", "id": "3kgct0l1or9hch" }
+]
